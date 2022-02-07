@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209vh;
+    height: 100vh;
+    background-color: #341f97;
+}
+.welcome_text{
+    width: 400px;
+}
+.welform input,
+.welform button{
+    display: block;
+    width: 100%;
+}
+.welform input{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.welform button{
+    font-size: 22px;
+    padding: 20px 0;
+    background-color: white;
+    border: none;
+    color: #341f97;
+    border-radius: 100px;
+    transition: 0.4s all;
+} 
+.welform button:hover{
+    transform: translate(-5px);
+    cursor: pointer;
+}
+.welform input:focus, button:focus{
+    outline: none;
+}
